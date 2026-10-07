@@ -8,7 +8,7 @@ from prompts import REFINEMENT_PROMPT, DOCUMENTATION_PROMPT
 # Configuration & Client Setup
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 client = OpenAI(
-    api_key=os.environ.get("LLM_API_KEY", "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"),
+    api_key=os.environ.get("LLM_API_KEY", "your_api_key_here"),
     base_url="https://api.groq.com/openai/v1"
 )
 LLM_MODEL = "openai/gpt-oss-120b"
